@@ -1,0 +1,117 @@
+ /*base CSS*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+ /* Header top Area Start
+  =========================*/
+.header-left {
+  padding: 2% 0;
+}
+.header-right.text-right > p {
+  font-size: 16px;
+  padding-top: 5%;
+}
+/* Header Area Start Start
+  =========================*/
+.header_area {
+    background: rgba(0, 0, 0, 0) url("../img/bg.jpg") no-repeat scroll center center / cover ;
+    color: #fff;
+    padding: 5% 1%;
+}
+.header {
+  padding: 10% 0;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.header p {
+    font-size: 18px;
+    padding: 3% 0;
+}
+/*Service Area Start
+=========================*/
+.service_area {
+    padding: 5% 0;
+}
+.single-service h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.single-service p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+/*Testimonial Area Start
+=========================*/
+.testimonial_area {
+    background: #f3f3f3 none repeat scroll 0 0;
+    padding: 10% 0;
+}
+.testimonial_area img {
+    border-radius: 50%;
+    margin: 5% auto;
+}
+blockquote footer {
+    color: #333;
+    text-align: right;
+}
+blockquote {
+	border-left: transparent;
+}
+blockquote p::before {
+    content: "\f10d";
+    font: 18px fontawesome;
+    padding-right:10px;
+}
+blockquote p::after {
+    content: "\f10e";
+    font: 18px fontawesome;
+    padding-left:10px;
+}
+.carousel-indicators {
+    margin-top: 15%;
+    bottom:0;
+}
+.carousel-indicators li {
+    border: 1px solid #e84a64;
+}
+.carousel-indicators .active {
+    background-color: #e84a64;
+}
+.testimonial_area p {
+    font-size: 18px;
+}
+/*Footer Top Area Start
+=========================*/
+.footer_top_area {
+    background: rgba(0, 0, 0, 0) url("../img/fit.jpg") no-repeat scroll center center / cover ;
+    padding: 5% 0;
+}
+.footer-top-content h2 {
+    color: #fff;
+    margin-bottom: 5%;
+}
+.footer-top-content ._btn a, .header ._btn a {
+    background: #378ade none repeat scroll 0 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3% 0
+}
+.footer_area {
+  background: #172a35 none repeat scroll 0 0;
+}
+/*Footer Start
+=========================*/
+footer {
+    color: #fff;
+    font-size: 16px;
+    padding: 2% 0;
+}
